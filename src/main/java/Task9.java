@@ -1,8 +1,6 @@
-package org.example;
-
 import java.util.Scanner;
 
-public class Pra4 {
+public class Task9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
@@ -10,9 +8,9 @@ public class Pra4 {
         int b = sc.nextInt();
 
         if (x >= a && x <= b) {
-            System.out.println("IN");
+            System.out.println("YES");
         } else {
-            System.out.println("OUT");
+            System.out.println("NO");
         }
     }
 }
